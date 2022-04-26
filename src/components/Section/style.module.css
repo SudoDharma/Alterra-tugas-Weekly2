@@ -1,0 +1,30 @@
+.container{
+    padding: 4rem 2rem 2rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.container p{
+    text-align: justify;
+    white-space: pre-wrap;
+}
+
+.image_container{
+    overflow-x: scroll;
+    display: flex;
+    column-gap: 1rem;
+}
+
+.image_container img{
+    padding: 0.2rem;
+
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.image_container::-webkit-scrollbar{
+    display: none;
+}
